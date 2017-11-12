@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.ananc.compapp.Managerpage"
+    android:weightSum="1">
+
+
+
+
+    <TextView
+        android:id="@+id/tvmanagerpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Welcome Manager!"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="279dp"
+        android:layout_height="148dp"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/manager" />
+
+    <TextView
+        android:id="@+id/tvmanagerpage1"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:gravity="top|center_vertical|center_horizontal"
+        android:text="In this app you can control the company using a variety of features:"
+        android:textAllCaps="false"
+        android:textSize="19sp" />
+
+    <Button
+        android:id="@+id/Assignmentsbt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Add Assignments"
+        android:layout_weight="0.02" />
+
+
+</LinearLayout>
+
+
