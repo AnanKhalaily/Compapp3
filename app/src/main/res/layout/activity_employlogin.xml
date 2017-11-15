@@ -18,15 +18,15 @@
         android:textSize="25sp" />
 
     <EditText
-        android:id="@+id/idemployeelogin"
+        android:id="@+id/etwokerusername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="Username"
+        android:hint="E-mail"
         android:inputType="textPersonName" />
 
     <EditText
-        android:id="@+id/passemployeelogin"
+        android:id="@+id/etworkerpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -34,7 +34,7 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/btemployeelogin"
+        android:id="@+id/btworkerlogin"
         android:layout_width="212dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

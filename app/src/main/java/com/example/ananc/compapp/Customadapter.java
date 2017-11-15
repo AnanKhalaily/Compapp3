@@ -20,11 +20,11 @@ import static com.example.ananc.compapp.R.id.parent;
  * Created by ananc on 12/11/2017.
  */
 
-public class CustomAdapter extends ArrayAdapter<lvmissions> {
+public class Customadapter extends ArrayAdapter<lvmissions> {
 
     private int resource;
 
-    public CustomAdapter(Context context, int resource, ArrayList<lvmissions> objects) {
+    public Customadapter(Context context, int resource, ArrayList<lvmissions> objects) {
         super(context, resource, objects);
         this.resource = resource;
     }

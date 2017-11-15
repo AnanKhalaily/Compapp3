@@ -20,7 +20,8 @@
         <activity android:name=".Managerlogin" />
         <activity android:name=".Managerpage" />
         <activity android:name=".Workersignup" />
-        <activity android:name=".AddMissions"></activity>
+        <activity android:name=".AddMissions" />
+        <activity android:name=".WorkerPage"></activity>
     </application>
 
 </manifest>
