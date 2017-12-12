@@ -9,13 +9,13 @@ import com.google.firebase.database.FirebaseDatabase;
 
 import java.util.ArrayList;
 
-public class AddMissions extends AppCompatActivity {
+public class MissionList extends AppCompatActivity {
     ListView lvassignments;
     ArrayList<lvmissions> missions=new ArrayList<lvmissions>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_add_missions);
+        setContentView(R.layout.activity_mission_list);
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         DatabaseReference myRef = database.getReference("message");
         myRef.setValue("Hello, World!");

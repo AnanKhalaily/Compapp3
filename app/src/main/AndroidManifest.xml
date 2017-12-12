@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".HowActivity">
+        <activity android:name=".AddMission">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,8 +20,9 @@
         <activity android:name=".Managerlogin" />
         <activity android:name=".Managerpage" />
         <activity android:name=".Workersignup" />
-        <activity android:name=".AddMissions" />
-        <activity android:name=".WorkerPage"></activity>
+        <activity android:name=".MissionList" />
+        <activity android:name=".WorkerPage" />
+        <activity android:name=".HowActivity"></activity>
     </application>
 
 </manifest>
