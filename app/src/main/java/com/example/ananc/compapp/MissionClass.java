@@ -7,6 +7,8 @@ package com.example.ananc.compapp;
 public class MissionClass {
     private String Mission,Date;
 
+    public  MissionClass(){}
+
     public MissionClass(String mission, String date) {
         Mission = mission;
         Date = date;

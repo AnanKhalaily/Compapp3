@@ -39,6 +39,6 @@ public class AddMission extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View view) {
         details=new MissionClass(etmission.getText().toString(),etdate.getText().toString());
-        myRef.child("test mission").setValue(details);
+        myRef.push().setValue(details);
     }
 }

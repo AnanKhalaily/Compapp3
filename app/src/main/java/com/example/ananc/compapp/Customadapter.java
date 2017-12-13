@@ -20,11 +20,11 @@ import static com.example.ananc.compapp.R.id.parent;
  * Created by ananc on 12/11/2017.
  */
 
-public class Customadapter extends ArrayAdapter<lvmissions> {
+public class Customadapter extends ArrayAdapter<MissionClass> {
 
     private int resource;
 
-    public Customadapter(Context context, int resource, ArrayList<lvmissions> objects) {
+    public Customadapter(Context context, int resource, ArrayList<MissionClass> objects) {
         super(context, resource, objects);
         this.resource = resource;
     }
@@ -33,11 +33,11 @@ public class Customadapter extends ArrayAdapter<lvmissions> {
         LayoutInflater imageInflater = LayoutInflater.from(getContext());
         View cuView = imageInflater.inflate(resource, parent, false );
 
-        lvmissions item = getItem(position);
+        MissionClass item = getItem(position);
         TextView title = (TextView) cuView.findViewById(R.id.tvtask);
         TextView date = (TextView) cuView.findViewById(R.id.tvtaskdate);
 
-        title.setText(item.getTitle());
+        title.setText(item.getMission());
         date.setText(item.getDate());
 
 
